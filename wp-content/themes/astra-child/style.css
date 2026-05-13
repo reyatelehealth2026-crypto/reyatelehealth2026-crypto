@@ -1,0 +1,34 @@
+/*
+Theme Name:   Astra Child — Thai Store
+Theme URI:    https://example.com/astra-child
+Description:  Astra child theme for a bilingual (Thai/English) WooCommerce store selling Thai food and goods to the Thai community in the USA.
+Author:       Reya Telehealth
+Author URI:   https://example.com
+Template:     astra
+Version:      1.0.0
+License:      GPL-2.0-or-later
+Text Domain:  astra-child
+*/
+
+.thai-store-perishable-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	background: #e3f6ff;
+	color: #00557a;
+	border-radius: 999px;
+	font-size: 0.75em;
+	font-weight: 600;
+	margin-left: 6px;
+}
+
+.thai-store-allergen-list {
+	margin: 8px 0;
+	padding: 8px 12px;
+	background: #fff8e6;
+	border-left: 3px solid #f0a000;
+	font-size: 0.9em;
+}
+
+.woocommerce-thankyou-order-received .thai-zelle-thankyou {
+	max-width: 720px;
+}
