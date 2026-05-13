@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>verzey — Fullstack Portfolio</title>
+  <meta name="description" content="Fullstack Engineer portfolio focused on TypeScript, React, Node.js, Dashboard, CRM/ERP, LINE API, and AI workflow tools." />
+  <style>
+    :root {
+      --bg: #070a12;
+      --bg-soft: #0d1220;
+      --card: rgba(255, 255, 255, 0.075);
+      --card-strong: rgba(255, 255, 255, 0.12);
+      --text: #f6f8ff;
+      --muted: #aab3c5;
+      --line: rgba(255,255,255,0.14);
+      --accent: #37e8b4;
+      --accent-2: #69a7ff;
+      --gold: #ffd36a;
+      --danger: #ff7a90;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.36);
+      --radius: 28px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(55,232,180,.20), transparent 32%),
+        radial-gradient(circle at 80% 0%, rgba(105,167,255,.22), transparent 34%),
+        radial-gradient(circle at 72% 72%, rgba(255,211,106,.12), transparent 28%),
+        linear-gradient(180deg, #060911 0%, #0a0e18 42%, #070a12 100%);
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 54px 54px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.95), transparent 82%);
+      pointer-events: none;
+      z-index: -2;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(18px);
+      background: rgba(7, 10, 18, 0.72);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 15px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #071019;
+      box-shadow: 0 14px 44px rgba(55,232,180,.22);
+      font-weight: 900;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav-links a {
+      padding: 10px 13px;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 14px;
+      transition: .2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+      background: rgba(255,255,255,.08);
+    }
+
+    .hero {
+      padding: 86px 0 48px;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 34px;
+      align-items: center;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid var(--line);
+      color: #dce5f8;
+      font-size: 14px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.22);
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 99px;
+      background: var(--accent);
+      box-shadow: 0 0 0 7px rgba(55,232,180,.12);
+    }
+
+    h1 {
+      margin: 22px 0 18px;
+      font-size: clamp(46px, 7vw, 86px);
+      line-height: .92;
+      letter-spacing: -0.08em;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #ffffff 0%, #b9ffe9 38%, #9fc3ff 78%, #ffe29a 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.75;
+      max-width: 650px;
+    }
+
+    .hero-actions {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.08);
+      color: var(--text);
+      font-weight: 750;
+      transition: transform .2s ease, background .2s ease, border .2s ease;
+    }
+
+    .btn:hover { transform: translateY(-2px); background: rgba(255,255,255,.13); }
+
+    .btn.primary {
+      color: #041018;
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      box-shadow: 0 16px 50px rgba(55,232,180,.18);
+    }
+
+    .hero-card {
+      position: relative;
+      padding: 22px;
+      border-radius: 34px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.13), rgba(255,255,255,.055));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-card::before {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      right: -82px;
+      top: -68px;
+      background: radial-gradient(circle, rgba(55,232,180,.40), transparent 68%);
+    }
+
+    .terminal {
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(3,7,14,.75);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .terminal-top {
+      height: 48px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 16px;
+      border-bottom: 1px solid rgba(255,255,255,.11);
+      background: rgba(255,255,255,.045);
+    }
+
+    .circle { width: 11px; height: 11px; border-radius: 50%; background: var(--danger); }
+    .circle:nth-child(2) { background: var(--gold); }
+    .circle:nth-child(3) { background: var(--accent); }
+
+    .terminal-body {
+      padding: 22px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: #d7e6ff;
+      line-height: 1.8;
+      font-size: 14px;
+    }
+
+    .terminal-body .comment { color: #7d8ca7; }
+    .terminal-body .key { color: var(--accent); }
+    .terminal-body .value { color: #ffd36a; }
+
+    .stats {
+      margin-top: 16px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .stat {
+      padding: 16px;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.07);
+    }
+
+    .stat strong { display: block; font-size: 24px; letter-spacing: -.04em; }
+    .stat span { color: var(--muted); font-size: 13px; }
+
+    section { padding: 68px 0; }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 26px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: .16em;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.04;
+      letter-spacing: -0.055em;
+    }
+
+    .section-desc {
+      color: var(--muted);
+      max-width: 520px;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .skill-card, .project-card, .info-card {
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.045));
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: 0 18px 55px rgba(0,0,0,.20);
+    }
+
+    .skill-card h3, .project-card h3, .info-card h3 {
+      margin: 0 0 12px;
+      font-size: 19px;
+      letter-spacing: -.03em;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 15px;
+    }
+
+    .tag {
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.075);
+      border: 1px solid rgba(255,255,255,.11);
+      color: #d9e2f4;
+      font-size: 13px;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform .22s ease, border .22s ease, background .22s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(55,232,180,.45);
+      background: linear-gradient(180deg, rgba(55,232,180,.105), rgba(255,255,255,.052));
+    }
+
+    .project-card::after {
+      content: "";
+      position: absolute;
+      inset: auto -60px -90px auto;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(105,167,255,.18), transparent 68%);
+      pointer-events: none;
+    }
+
+    .project-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: flex-start;
+    }
+
+    .project-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 17px;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,.09);
+      border: 1px solid rgba(255,255,255,.12);
+      font-size: 21px;
+    }
+
+    .project-card p, .skill-card p, .info-card p {
+      color: var(--muted);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .project-link {
+      margin-top: 18px;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .timeline-item {
+      padding: 22px;
+      border-radius: var(--radius);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.06);
+    }
+
+    .timeline-item strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .timeline-item p { color: var(--muted); line-height: 1.7; margin: 0; }
+
+    .footer {
+      padding: 28px 0 42px;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid, .contact, .timeline { grid-template-columns: 1fr; }
+      .grid-3, .project-grid { grid-template-columns: 1fr; }
+      .hero { padding-top: 54px; }
+      .nav-inner { height: auto; padding: 14px 0; align-items: flex-start; }
+      .nav-links { display: none; }
+      .stats { grid-template-columns: 1fr; }
+      .section-head { display: block; }
+      .section-desc { margin-top: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="logo">V</span>
+        <span>verzey</span>
+      </a>
+      <div class="nav-links">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Can Build</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1><span class="gradient-text">Fullstack Engineer</span><br />for business systems.</h1>
+          <p class="lead">
+            I build practical web applications for real business operations — dashboards, CRM/ERP, LINE OA/LIFF platforms,
+            booking systems, API integrations, and AI-assisted workflow tools.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects →</a>
+            <a class="btn" href="https://github.com/reyatelehealth2026-crypto" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Profile summary card">
+          <div class="terminal">
+            <div class="terminal-top">
+              <span class="circle"></span><span class="circle"></span><span class="circle"></span>
+            </div>
+            <div class="terminal-body">
+              <div><span class="comment">// profile</span></div>
+              <div><span class="key">role</span>: <span class="value">"Fullstack Engineer"</span></div>
+              <div><span class="key">main_stack</span>: <span class="value">"TypeScript / React / Node.js"</span></div>
+              <div><span class="key">focus</span>: <span class="value">"Dashboard, CRM, ERP, LINE API"</span></div>
+              <div><span class="key">interest</span>: <span class="value">"AI Product & Automation"</span></div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>5+</strong><span>Selected Projects</span></div>
+            <div class="stat"><strong>Full</strong><span>Frontend + Backend</span></div>
+            <div class="stat"><strong>LINE</strong><span>OA / LIFF / Webhook</span></div>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Core Skills</div>
+            <h2>Tech stack built around real products.</h2>
+          </div>
+          <p class="section-desc">Focused on building maintainable web systems with clean UI, solid API layers, database structure, and business workflow integration.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="skill-card">
+            <h3>Frontend</h3>
+            <p>Responsive web app, dashboard UI, admin panel, and product interfaces.</p>
+            <div class="tags">
+              <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Tailwind CSS</span><span class="tag">shadcn/ui</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3>Backend</h3>
+            <p>REST API, authentication, webhook handling, role-based access, and business logic.</p>
+            <div class="tags">
+              <span class="tag">Node.js</span><span class="tag">NestJS</span><span class="tag">Express</span><span class="tag">REST API</span><span class="tag">Webhook</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3>Database & Tools</h3>
+            <p>Database-driven systems, deployment workflow, debugging, and integration work.</p>
+            <div class="tags">
+              <span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">Supabase</span><span class="tag">Docker</span><span class="tag">GitHub</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Selected Work</div>
+            <h2>Projects that show business system thinking.</h2>
+          </div>
+          <p class="section-desc">These projects cover backoffice systems, LINE platforms, booking workflows, CRM/ERP, dashboards, and AI workflow concepts.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <div>
+                  <h3>Telepharmacy ERP</h3>
+                  <p>ERP / backoffice system for online pharmacy operations with customer, order, product, LINE integration, dashboard, and AI/OCR workflow concept.</p>
+                </div>
+                <div class="project-icon">💊</div>
+              </div>
+              <div class="tags">
+                <span class="tag">Admin Dashboard</span><span class="tag">API</span><span class="tag">Database</span><span class="tag">LINE</span><span class="tag">AI/OCR</span>
+              </div>
+            </div>
+            <a class="project-link" href="https://github.com/reyatelehealth2026-crypto/telepharmacy-erp.git" target="_blank" rel="noreferrer">Open GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <div>
+                  <h3>LINEX-BOOk</h3>
+                  <p>LINE-based booking SaaS for service businesses such as salons, nail shops, spas, and appointment-based operations.</p>
+                </div>
+                <div class="project-icon">📅</div>
+              </div>
+              <div class="tags">
+                <span class="tag">LIFF</span><span class="tag">Booking</span><span class="tag">SaaS</span><span class="tag">Realtime</span><span class="tag">CRM</span>
+              </div>
+            </div>
+            <a class="project-link" href="https://github.com/reyatelehealth2026-crypto/LINEX-BOOk.git" target="_blank" rel="noreferrer">Open GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <div>
+                  <h3>InboxReya</h3>
+                  <p>LINE OA management system for admin teams to handle messages, broadcast, auto-reply, online shop flow, analytics, and reports.</p>
+                </div>
+                <div class="project-icon">💬</div>
+              </div>
+              <div class="tags">
+                <span class="tag">LINE OA</span><span class="tag">Broadcast</span><span class="tag">Auto Reply</span><span class="tag">Dashboard</span>
+              </div>
+            </div>
+            <a class="project-link" href="https://github.com/reyatelehealth2026-crypto/inboxreya.git" target="_blank" rel="noreferrer">Open GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <div>
+                  <h3>CRM / Backoffice Platform</h3>
+                  <p>CRM and backoffice platform for managing customer data, LINE chat workflow, products, orders, and business reporting.</p>
+                </div>
+                <div class="project-icon">📊</div>
+              </div>
+              <div class="tags">
+                <span class="tag">CRM</span><span class="tag">Order Flow</span><span class="tag">Reports</span><span class="tag">Backoffice</span>
+              </div>
+            </div>
+            <a class="project-link" href="https://github.com/reyatelehealth2026-crypto/odoo.git" target="_blank" rel="noreferrer">Open GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <div>
+                  <h3>C-Office</h3>
+                  <p>AI Agent Command Center for monitoring and managing AI agent workflows through a realtime dashboard and internal tool interface.</p>
+                </div>
+                <div class="project-icon">🤖</div>
+              </div>
+              <div class="tags">
+                <span class="tag">AI Workflow</span><span class="tag">Realtime</span><span class="tag">Dashboard</span><span class="tag">Internal Tool</span>
+              </div>
+            </div>
+            <a class="project-link" href="https://github.com/vrzycodex/c-office.git" target="_blank" rel="noreferrer">Open GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <div>
+                  <h3>Custom Company Website</h3>
+                  <p>Modern corporate website direction for hardware, engineering, electrical, and industrial businesses with SEO, quotation form, and service/product pages.</p>
+                </div>
+                <div class="project-icon">🏭</div>
+              </div>
+              <div class="tags">
+                <span class="tag">Company Website</span><span class="tag">SEO</span><span class="tag">Quote Form</span><span class="tag">Responsive</span>
+              </div>
+            </div>
+            <span class="project-link">Website / SEO / Quote Form</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">What I Can Build</div>
+            <h2>From website to internal system.</h2>
+          </div>
+          <p class="section-desc">I enjoy working on products that solve real business problems and help teams work faster, smarter, and more efficiently.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item"><strong>Company Website</strong><p>Professional, modern, responsive website with SEO structure, contact forms, product/service pages, and quotation request flow.</p></div>
+          <div class="timeline-item"><strong>Admin Dashboard</strong><p>Dashboard and backoffice tools for managing customers, orders, products, reports, and internal business workflows.</p></div>
+          <div class="timeline-item"><strong>LINE OA / LIFF App</strong><p>LINE-based customer flow, booking system, CRM, webhook, messaging API, and customer interaction automation.</p></div>
+          <div class="timeline-item"><strong>AI Workflow Tool</strong><p>AI-assisted workflow tools for sales, customer support, operation teams, and internal productivity systems.</p></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">verzey</div>
+  </footer>
+</body>
+</html>
