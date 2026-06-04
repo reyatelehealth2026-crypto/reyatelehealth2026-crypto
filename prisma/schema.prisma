@@ -1,0 +1,80 @@
+// Prisma schema for the Facebook Page auto-post system.
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum PostStatus {
+  DRAFT
+  APPROVED
+  SCHEDULED
+  PUBLISHING
+  PUBLISHED
+  FAILED
+  CANCELLED
+}
+
+enum PostType {
+  TEXT
+  LINK
+  PHOTO
+}
+
+model Post {
+  id           String     @id @default(cuid())
+  type         PostType   @default(TEXT)
+  status       PostStatus @default(DRAFT)
+  caption      String
+  hashtags     String[]
+  altText      String?
+  warnings     String[]
+  linkUrl      String?
+  suggestedAt  DateTime?
+  scheduledAt  DateTime?
+  mediaId      String?
+  media        Media?     @relation(fields: [mediaId], references: [id])
+  fbPostId     String?
+  publishedAt  DateTime?
+  failedReason String?
+  retryCount   Int        @default(0)
+  lockedAt     DateTime?
+  geminiModel  String?
+  geminiRaw    Json?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  @@index([status, scheduledAt])
+}
+
+model Media {
+  id        String   @id @default(cuid())
+  blobUrl   String
+  pathname  String?
+  altText   String?
+  mimeType  String
+  sizeBytes Int?
+  createdAt DateTime @default(now())
+  posts     Post[]
+}
+
+model FacebookConnection {
+  id              String   @id @default("default")
+  fbUserId        String?
+  userTokenCipher String?
+  pageId          String?
+  pageName        String?
+  pageTokenCipher String?
+  scopes          String[]
+  tokenExpiresAt  DateTime?
+  connectedAt     DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model OAuthState {
+  state     String   @id
+  createdAt DateTime @default(now())
+}
