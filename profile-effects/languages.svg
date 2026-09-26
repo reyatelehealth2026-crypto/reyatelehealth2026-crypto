@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="250" viewBox="0 0 860 250">
+<title>reyatelehealth2026-crypto: top languages</title>
+<defs><clipPath id="frame"><rect width="860" height="250" rx="16"/></clipPath><filter id="glow" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0a1f"/><stop offset="1" stop-color="#040309"/></linearGradient><mask id="reflect"><rect width="860" height="250" fill="url(#fade)"/></mask><pattern id="leds" width="10" height="7" patternUnits="userSpaceOnUse"><rect y="5" width="10" height="2" fill="#050410"/></pattern><linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="0" y1="178" x2="0" y2="248"><stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>
+    .ttl{font:bold 15px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#f0eaff;letter-spacing:2px;text-transform:uppercase}
+    .sub{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#9d93c7}
+    .lang{font:bold 11px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#e8e4ff}
+    .pct{font:bold 11px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    @keyframes eq0{0%{transform:scaleY(0.9)}16.7%{transform:scaleY(0.8)}33.3%{transform:scaleY(1)}50%{transform:scaleY(0.6)}66.7%{transform:scaleY(0.8)}83.3%{transform:scaleY(1)}100%{transform:scaleY(0.9)}}
+@keyframes pk0{0%{transform:translateY(0)}15%{transform:translateY(-11.6px)}100%{transform:translateY(21px)}}
+@keyframes eq1{0%{transform:scaleY(1)}16.7%{transform:scaleY(1)}33.3%{transform:scaleY(0.8)}50%{transform:scaleY(0.8)}66.7%{transform:scaleY(1)}83.3%{transform:scaleY(0.8)}100%{transform:scaleY(1)}}
+@keyframes pk1{0%{transform:translateY(0)}15%{transform:translateY(-8.3px)}100%{transform:translateY(11.7px)}}
+@keyframes eq2{0%{transform:scaleY(0.7)}16.7%{transform:scaleY(0.7)}33.3%{transform:scaleY(0.7)}50%{transform:scaleY(1)}66.7%{transform:scaleY(0.8)}83.3%{transform:scaleY(0.8)}100%{transform:scaleY(0.7)}}
+@keyframes pk2{0%{transform:translateY(0)}15%{transform:translateY(-7.2px)}100%{transform:translateY(8.8px)}}
+@keyframes eq3{0%{transform:scaleY(0.7)}16.7%{transform:scaleY(0.8)}33.3%{transform:scaleY(1.1)}50%{transform:scaleY(0.7)}66.7%{transform:scaleY(0.6)}83.3%{transform:scaleY(1)}100%{transform:scaleY(0.7)}}
+@keyframes pk3{0%{transform:translateY(0)}15%{transform:translateY(-5.5px)}100%{transform:translateY(4.2px)}}
+@keyframes eq4{0%{transform:scaleY(0.9)}16.7%{transform:scaleY(0.6)}33.3%{transform:scaleY(1.1)}50%{transform:scaleY(0.7)}66.7%{transform:scaleY(1.1)}83.3%{transform:scaleY(0.6)}100%{transform:scaleY(0.9)}}
+@keyframes pk4{0%{transform:translateY(0)}15%{transform:translateY(-5.2px)}100%{transform:translateY(3.3px)}}
+@keyframes eq5{0%{transform:scaleY(0.8)}16.7%{transform:scaleY(1.1)}33.3%{transform:scaleY(1)}50%{transform:scaleY(1.1)}66.7%{transform:scaleY(1.1)}83.3%{transform:scaleY(1)}100%{transform:scaleY(0.8)}}
+@keyframes pk5{0%{transform:translateY(0)}15%{transform:translateY(-5.2px)}100%{transform:translateY(3.2px)}}
+@keyframes eq6{0%{transform:scaleY(1.1)}16.7%{transform:scaleY(0.8)}33.3%{transform:scaleY(0.9)}50%{transform:scaleY(0.6)}66.7%{transform:scaleY(1)}83.3%{transform:scaleY(0.8)}100%{transform:scaleY(1.1)}}
+@keyframes pk6{0%{transform:translateY(0)}15%{transform:translateY(-5.2px)}100%{transform:translateY(3.2px)}}
+@keyframes eq7{0%{transform:scaleY(0.8)}16.7%{transform:scaleY(0.9)}33.3%{transform:scaleY(0.6)}50%{transform:scaleY(0.8)}66.7%{transform:scaleY(1.1)}83.3%{transform:scaleY(0.7)}100%{transform:scaleY(0.8)}}
+@keyframes pk7{0%{transform:translateY(0)}15%{transform:translateY(-5.2px)}100%{transform:translateY(3.2px)}}</style>
+<g clip-path="url(#frame)">
+<rect width="860" height="250" fill="url(#bg)"/>
+<text x="24" y="32" class="ttl">top languages</text>
+<text x="836" y="32" class="sub" text-anchor="end">@reyatelehealth2026-crypto · public repos</text>
+<g mask="url(#reflect)" opacity=".6"><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq0 1.6s ease-in-out -1.6s infinite">
+      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="#4F5D95"/>
+      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="url(#leds)"/>
+    </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq1 1.7s ease-in-out -1.9s infinite">
+      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="#3178c6"/>
+      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="url(#leds)"/>
+    </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq2 2s ease-in-out -0.1s infinite">
+      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="#f1e05a"/>
+      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="url(#leds)"/>
+    </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq3 1.6s ease-in-out -1.4s infinite">
+      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="#663399"/>
+      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="url(#leds)"/>
+    </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq4 2.5s ease-in-out -1.3s infinite">
+      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="#e34c26"/>
+      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="url(#leds)"/>
+    </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq5 2.4s ease-in-out -0.6s infinite">
+      <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="#3572A5"/>
+      <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
+    </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq6 2.5s ease-in-out -0.7s infinite">
+      <rect x="644" y="163.6" width="52" height="14.4" rx="3" fill="#dea584"/>
+      <rect x="644" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
+    </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq7 2.2s ease-in-out -0.6s infinite">
+      <rect x="740" y="163.6" width="52" height="14.4" rx="3" fill="#878787"/>
+      <rect x="740" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
+    </g></g></g>
+<rect x="24" y="180" width="812" height="1" fill="#fff" opacity=".12"/>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq0 1.6s ease-in-out -1.6s infinite">
+      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="#4F5D95"/>
+      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="68" y="74.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk0 1.6s ease-out -1.6s infinite"/>
+<text x="94" y="200" class="lang" text-anchor="middle">PHP</text>
+<text x="94" y="216" class="pct" text-anchor="middle" fill="#4F5D95">63%</text>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq1 1.7s ease-in-out -1.9s infinite">
+      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="#3178c6"/>
+      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="164" y="116.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk1 1.7s ease-out -1.9s infinite"/>
+<text x="190" y="200" class="lang" text-anchor="middle">TypeScript</text>
+<text x="190" y="216" class="pct" text-anchor="middle" fill="#3178c6">20%</text>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq2 2s ease-in-out -0.1s infinite">
+      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="#f1e05a"/>
+      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="260" y="129.8" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk2 2s ease-out -0.1s infinite"/>
+<text x="286" y="200" class="lang" text-anchor="middle">JavaScript</text>
+<text x="286" y="216" class="pct" text-anchor="middle" fill="#f1e05a">11%</text>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq3 1.6s ease-in-out -1.4s infinite">
+      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="#663399"/>
+      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="356" y="150.7" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk3 1.6s ease-out -1.4s infinite"/>
+<text x="382" y="200" class="lang" text-anchor="middle">CSS</text>
+<text x="382" y="216" class="pct" text-anchor="middle" fill="#663399">2.6%</text>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq4 2.5s ease-in-out -1.3s infinite">
+      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="#e34c26"/>
+      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="452" y="154.9" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk4 2.5s ease-out -1.3s infinite"/>
+<text x="478" y="200" class="lang" text-anchor="middle">HTML</text>
+<text x="478" y="216" class="pct" text-anchor="middle" fill="#e34c26">1.6%</text>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq5 2.4s ease-in-out -0.6s infinite">
+      <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="#3572A5"/>
+      <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="548" y="155.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk5 2.4s ease-out -0.6s infinite"/>
+<text x="574" y="200" class="lang" text-anchor="middle">Python</text>
+<text x="574" y="216" class="pct" text-anchor="middle" fill="#3572A5">0.6%</text>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq6 2.5s ease-in-out -0.7s infinite">
+      <rect x="644" y="163.6" width="52" height="14.4" rx="3" fill="#dea584"/>
+      <rect x="644" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="644" y="155.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk6 2.5s ease-out -0.7s infinite"/>
+<text x="670" y="200" class="lang" text-anchor="middle">Rust</text>
+<text x="670" y="216" class="pct" text-anchor="middle" fill="#dea584">0.4%</text>
+<g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq7 2.2s ease-in-out -0.6s infinite">
+      <rect x="740" y="163.6" width="52" height="14.4" rx="3" fill="#878787"/>
+      <rect x="740" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
+    </g></g>
+<rect x="740" y="155.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk7 2.2s ease-out -0.6s infinite"/>
+<text x="766" y="200" class="lang" text-anchor="middle">Hack</text>
+<text x="766" y="216" class="pct" text-anchor="middle" fill="#878787">0.3%</text>
+</g>
+</svg>
