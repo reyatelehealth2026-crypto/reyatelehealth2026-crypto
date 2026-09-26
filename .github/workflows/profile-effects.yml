@@ -1,0 +1,26 @@
+name: Profile effects
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # every day
+  workflow_dispatch:
+  push:                   # also run right after this file is added or edited
+    paths: [".github/workflows/profile-effects.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-effects
+
+jobs:
+  effects:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: qwerty-ll/CustomizeYouProfile@v1
+        with:
+          effects: intro, skills, rpg-card, languages, dino-run, fireworks, black-hole, oscilloscope, terminal, notebook, space-shooter
+          seasons: "new-year, halloween"
+          birthday: "03-12"
+          countdown: "birthday"
