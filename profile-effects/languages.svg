@@ -7,15 +7,15 @@
     .lang{font:bold 11px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;fill:#e8e4ff}
     .pct{font:bold 11px ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
     @keyframes eq0{0%{transform:scaleY(0.9)}16.7%{transform:scaleY(0.8)}33.3%{transform:scaleY(1)}50%{transform:scaleY(0.6)}66.7%{transform:scaleY(0.8)}83.3%{transform:scaleY(1)}100%{transform:scaleY(0.9)}}
-@keyframes pk0{0%{transform:translateY(0)}15%{transform:translateY(-11.6px)}100%{transform:translateY(21px)}}
+@keyframes pk0{0%{transform:translateY(0)}15%{transform:translateY(-12px)}100%{transform:translateY(22px)}}
 @keyframes eq1{0%{transform:scaleY(1)}16.7%{transform:scaleY(1)}33.3%{transform:scaleY(0.8)}50%{transform:scaleY(0.8)}66.7%{transform:scaleY(1)}83.3%{transform:scaleY(0.8)}100%{transform:scaleY(1)}}
-@keyframes pk1{0%{transform:translateY(0)}15%{transform:translateY(-8.3px)}100%{transform:translateY(11.7px)}}
+@keyframes pk1{0%{transform:translateY(0)}15%{transform:translateY(-7.4px)}100%{transform:translateY(9.5px)}}
 @keyframes eq2{0%{transform:scaleY(0.7)}16.7%{transform:scaleY(0.7)}33.3%{transform:scaleY(0.7)}50%{transform:scaleY(1)}66.7%{transform:scaleY(0.8)}83.3%{transform:scaleY(0.8)}100%{transform:scaleY(0.7)}}
-@keyframes pk2{0%{transform:translateY(0)}15%{transform:translateY(-7.2px)}100%{transform:translateY(8.8px)}}
+@keyframes pk2{0%{transform:translateY(0)}15%{transform:translateY(-7.3px)}100%{transform:translateY(9.2px)}}
 @keyframes eq3{0%{transform:scaleY(0.7)}16.7%{transform:scaleY(0.8)}33.3%{transform:scaleY(1.1)}50%{transform:scaleY(0.7)}66.7%{transform:scaleY(0.6)}83.3%{transform:scaleY(1)}100%{transform:scaleY(0.7)}}
-@keyframes pk3{0%{transform:translateY(0)}15%{transform:translateY(-5.5px)}100%{transform:translateY(4.2px)}}
+@keyframes pk3{0%{transform:translateY(0)}15%{transform:translateY(-5.6px)}100%{transform:translateY(4.4px)}}
 @keyframes eq4{0%{transform:scaleY(0.9)}16.7%{transform:scaleY(0.6)}33.3%{transform:scaleY(1.1)}50%{transform:scaleY(0.7)}66.7%{transform:scaleY(1.1)}83.3%{transform:scaleY(0.6)}100%{transform:scaleY(0.9)}}
-@keyframes pk4{0%{transform:translateY(0)}15%{transform:translateY(-5.2px)}100%{transform:translateY(3.3px)}}
+@keyframes pk4{0%{transform:translateY(0)}15%{transform:translateY(-5.2px)}100%{transform:translateY(3.2px)}}
 @keyframes eq5{0%{transform:scaleY(0.8)}16.7%{transform:scaleY(1.1)}33.3%{transform:scaleY(1)}50%{transform:scaleY(1.1)}66.7%{transform:scaleY(1.1)}83.3%{transform:scaleY(1)}100%{transform:scaleY(0.8)}}
 @keyframes pk5{0%{transform:translateY(0)}15%{transform:translateY(-5.2px)}100%{transform:translateY(3.2px)}}
 @keyframes eq6{0%{transform:scaleY(1.1)}16.7%{transform:scaleY(0.8)}33.3%{transform:scaleY(0.9)}50%{transform:scaleY(0.6)}66.7%{transform:scaleY(1)}83.3%{transform:scaleY(0.8)}100%{transform:scaleY(1.1)}}
@@ -27,20 +27,20 @@
 <text x="24" y="32" class="ttl">top languages</text>
 <text x="836" y="32" class="sub" text-anchor="end">@reyatelehealth2026-crypto · public repos</text>
 <g mask="url(#reflect)" opacity=".6"><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq0 1.6s ease-in-out -1.6s infinite">
-      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="#4F5D95"/>
-      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="url(#leds)"/>
+      <rect x="68" y="78.2" width="52" height="99.8" rx="3" fill="#4F5D95"/>
+      <rect x="68" y="78.2" width="52" height="99.8" rx="3" fill="url(#leds)"/>
     </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq1 1.7s ease-in-out -1.9s infinite">
-      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="#3178c6"/>
-      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="url(#leds)"/>
+      <rect x="164" y="135" width="52" height="43" rx="3" fill="#3178c6"/>
+      <rect x="164" y="135" width="52" height="43" rx="3" fill="url(#leds)"/>
     </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq2 2s ease-in-out -0.1s infinite">
-      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="#f1e05a"/>
-      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="url(#leds)"/>
+      <rect x="260" y="136.4" width="52" height="41.6" rx="3" fill="#f1e05a"/>
+      <rect x="260" y="136.4" width="52" height="41.6" rx="3" fill="url(#leds)"/>
     </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq3 1.6s ease-in-out -1.4s infinite">
-      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="#663399"/>
-      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="url(#leds)"/>
+      <rect x="356" y="157.9" width="52" height="20.1" rx="3" fill="#663399"/>
+      <rect x="356" y="157.9" width="52" height="20.1" rx="3" fill="url(#leds)"/>
     </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq4 2.5s ease-in-out -1.3s infinite">
-      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="#e34c26"/>
-      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="url(#leds)"/>
+      <rect x="452" y="163.6" width="52" height="14.4" rx="3" fill="#e34c26"/>
+      <rect x="452" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
     </g></g><g transform="translate(0,360) scale(1,-1)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq5 2.4s ease-in-out -0.6s infinite">
       <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="#3572A5"/>
       <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
@@ -53,40 +53,40 @@
     </g></g></g>
 <rect x="24" y="180" width="812" height="1" fill="#fff" opacity=".12"/>
 <g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq0 1.6s ease-in-out -1.6s infinite">
-      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="#4F5D95"/>
-      <rect x="68" y="82.6" width="52" height="95.4" rx="3" fill="url(#leds)"/>
+      <rect x="68" y="78.2" width="52" height="99.8" rx="3" fill="#4F5D95"/>
+      <rect x="68" y="78.2" width="52" height="99.8" rx="3" fill="url(#leds)"/>
     </g></g>
-<rect x="68" y="74.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk0 1.6s ease-out -1.6s infinite"/>
+<rect x="68" y="70.2" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk0 1.6s ease-out -1.6s infinite"/>
 <text x="94" y="200" class="lang" text-anchor="middle">PHP</text>
-<text x="94" y="216" class="pct" text-anchor="middle" fill="#4F5D95">63%</text>
+<text x="94" y="216" class="pct" text-anchor="middle" fill="#4F5D95">69%</text>
 <g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq1 1.7s ease-in-out -1.9s infinite">
-      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="#3178c6"/>
-      <rect x="164" y="124.6" width="52" height="53.4" rx="3" fill="url(#leds)"/>
+      <rect x="164" y="135" width="52" height="43" rx="3" fill="#3178c6"/>
+      <rect x="164" y="135" width="52" height="43" rx="3" fill="url(#leds)"/>
     </g></g>
-<rect x="164" y="116.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk1 1.7s ease-out -1.9s infinite"/>
+<rect x="164" y="127" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk1 1.7s ease-out -1.9s infinite"/>
 <text x="190" y="200" class="lang" text-anchor="middle">TypeScript</text>
-<text x="190" y="216" class="pct" text-anchor="middle" fill="#3178c6">20%</text>
+<text x="190" y="216" class="pct" text-anchor="middle" fill="#3178c6">13%</text>
 <g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq2 2s ease-in-out -0.1s infinite">
-      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="#f1e05a"/>
-      <rect x="260" y="137.8" width="52" height="40.2" rx="3" fill="url(#leds)"/>
+      <rect x="260" y="136.4" width="52" height="41.6" rx="3" fill="#f1e05a"/>
+      <rect x="260" y="136.4" width="52" height="41.6" rx="3" fill="url(#leds)"/>
     </g></g>
-<rect x="260" y="129.8" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk2 2s ease-out -0.1s infinite"/>
+<rect x="260" y="128.4" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk2 2s ease-out -0.1s infinite"/>
 <text x="286" y="200" class="lang" text-anchor="middle">JavaScript</text>
-<text x="286" y="216" class="pct" text-anchor="middle" fill="#f1e05a">11%</text>
+<text x="286" y="216" class="pct" text-anchor="middle" fill="#f1e05a">12%</text>
 <g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq3 1.6s ease-in-out -1.4s infinite">
-      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="#663399"/>
-      <rect x="356" y="158.7" width="52" height="19.3" rx="3" fill="url(#leds)"/>
+      <rect x="356" y="157.9" width="52" height="20.1" rx="3" fill="#663399"/>
+      <rect x="356" y="157.9" width="52" height="20.1" rx="3" fill="url(#leds)"/>
     </g></g>
-<rect x="356" y="150.7" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk3 1.6s ease-out -1.4s infinite"/>
+<rect x="356" y="149.9" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk3 1.6s ease-out -1.4s infinite"/>
 <text x="382" y="200" class="lang" text-anchor="middle">CSS</text>
-<text x="382" y="216" class="pct" text-anchor="middle" fill="#663399">2.6%</text>
+<text x="382" y="216" class="pct" text-anchor="middle" fill="#663399">2.8%</text>
 <g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq4 2.5s ease-in-out -1.3s infinite">
-      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="#e34c26"/>
-      <rect x="452" y="162.9" width="52" height="15.1" rx="3" fill="url(#leds)"/>
+      <rect x="452" y="163.6" width="52" height="14.4" rx="3" fill="#e34c26"/>
+      <rect x="452" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
     </g></g>
-<rect x="452" y="154.9" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk4 2.5s ease-out -1.3s infinite"/>
+<rect x="452" y="155.6" width="52" height="3" rx="1.5" fill="#fff" opacity=".85" style="animation:pk4 2.5s ease-out -1.3s infinite"/>
 <text x="478" y="200" class="lang" text-anchor="middle">HTML</text>
-<text x="478" y="216" class="pct" text-anchor="middle" fill="#e34c26">1.6%</text>
+<text x="478" y="216" class="pct" text-anchor="middle" fill="#e34c26">1.4%</text>
 <g filter="url(#glow)"><g style="transform-box:fill-box;transform-origin:50% 100%;animation:eq5 2.4s ease-in-out -0.6s infinite">
       <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="#3572A5"/>
       <rect x="548" y="163.6" width="52" height="14.4" rx="3" fill="url(#leds)"/>
