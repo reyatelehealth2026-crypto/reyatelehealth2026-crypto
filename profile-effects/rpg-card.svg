@@ -56,16 +56,16 @@
 <rect x="230" y="54" width="114" height="12" rx="6" fill="url(#xp)" filter="url(#glow)" class="m fbl" style="animation-name:xp"/>
 <text x="230" y="105" class="key" fill="#ff6b6b">STR</text><text x="268" y="105" class="label">commits this year</text>
 <rect x="390" y="96" width="420" height="10" rx="5" fill="#2a2340"/>
-<rect x="390" y="96" width="278.2" height="10" rx="5" fill="#ff6b6b" class="m fbl" style="animation-name:st0"/>
-<text x="820" y="105" text-anchor="end" class="m val" style="animation-name:sv0">126</text>
+<rect x="390" y="96" width="267.8" height="10" rx="5" fill="#ff6b6b" class="m fbl" style="animation-name:st0"/>
+<text x="820" y="105" text-anchor="end" class="m val" style="animation-name:sv0">105</text>
 <text x="230" y="131" class="key" fill="#4dabf7">INT</text><text x="268" y="131" class="label">public repos</text>
 <rect x="390" y="122" width="420" height="10" rx="5" fill="#2a2340"/>
-<rect x="390" y="122" width="281.4" height="10" rx="5" fill="#4dabf7" class="m fbl" style="animation-name:st1"/>
-<text x="820" y="131" text-anchor="end" class="m val" style="animation-name:sv1">18</text>
+<rect x="390" y="122" width="276.2" height="10" rx="5" fill="#4dabf7" class="m fbl" style="animation-name:st1"/>
+<text x="820" y="131" text-anchor="end" class="m val" style="animation-name:sv1">17</text>
 <text x="230" y="157" class="key" fill="#51cf66">DEX</text><text x="268" y="157" class="label">pull requests</text>
 <rect x="390" y="148" width="420" height="10" rx="5" fill="#2a2340"/>
-<rect x="390" y="148" width="294.9" height="10" rx="5" fill="#51cf66" class="m fbl" style="animation-name:st2"/>
-<text x="820" y="157" text-anchor="end" class="m val" style="animation-name:sv2">54</text>
+<rect x="390" y="148" width="284.9" height="10" rx="5" fill="#51cf66" class="m fbl" style="animation-name:st2"/>
+<text x="820" y="157" text-anchor="end" class="m val" style="animation-name:sv2">47</text>
 <text x="230" y="183" class="key" fill="#f783ac">CHA</text><text x="268" y="183" class="label">followers</text>
 <rect x="390" y="174" width="420" height="10" rx="5" fill="#2a2340"/>
 <rect x="390" y="174" width="46.8" height="10" rx="5" fill="#f783ac" class="m fbl" style="animation-name:st3"/>
@@ -76,8 +76,8 @@
 <text x="820" y="209" text-anchor="end" class="m val" style="animation-name:sv4">14</text>
 <text x="230" y="235" class="key" fill="#ffd43b">LUK</text><text x="268" y="235" class="label">stars earned</text>
 <rect x="390" y="226" width="420" height="10" rx="5" fill="#2a2340"/>
-<rect x="390" y="226" width="131.5" height="10" rx="5" fill="#ffd43b" class="m fbl" style="animation-name:st5"/>
-<text x="820" y="235" text-anchor="end" class="m val" style="animation-name:sv5">6</text>
+<rect x="390" y="226" width="121.1" height="10" rx="5" fill="#ffd43b" class="m fbl" style="animation-name:st5"/>
+<text x="820" y="235" text-anchor="end" class="m val" style="animation-name:sv5">5</text>
 <text x="230" y="264" class="label">ACHIEVEMENTS · 5/8</text>
 <g class="m fb" style="animation-name:bd0"><circle cx="245" cy="284" r="14" fill="#2d2150" stroke="url(#gold)" stroke-width="1.5"/>
       <text x="245" y="289" text-anchor="middle" class="icon">🌱</text>

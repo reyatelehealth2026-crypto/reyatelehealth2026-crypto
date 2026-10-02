@@ -96,94 +96,94 @@
       <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#e34f26"/>
       <text x="28" y="20.5" class="chip">HTML</text></g></g><g style="animation:row62 69s linear infinite"><g transform="translate(0,62)">
-      <rect width="86.4" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#3776ab"/>
-      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(96.4,62)">
       <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
-      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(178,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
-      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(259.6,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#0175c2"/>
-      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(341.2,62)">
-      <rect width="108.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#C1F12E"/>
-      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(459.8,62)">
+      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(81.6,62)">
       <rect width="86.4" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#3776ab"/>
-      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(556.2,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
-      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(637.8,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
-      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(719.4,62)">
+      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(178,62)">
       <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#0175c2"/>
-      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(801,62)">
+      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(259.6,62)">
       <rect width="108.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#C1F12E"/>
-      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(919.6,62)">
+      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(378.2,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
+      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(459.8,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
+      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(541.4,62)">
       <rect width="86.4" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#3776ab"/>
-      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(1016,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
-      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(1097.6,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
-      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(1179.2,62)">
+      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(637.8,62)">
       <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#0175c2"/>
-      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(1260.8,62)">
+      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(719.4,62)">
       <rect width="108.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#C1F12E"/>
-      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(1379.4,62)">
+      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(838,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
+      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(919.6,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
+      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(1001.2,62)">
       <rect width="86.4" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#3776ab"/>
-      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(1475.8,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
-      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(1557.4,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
-      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(1639,62)">
+      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(1097.6,62)">
       <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#0175c2"/>
-      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(1720.6,62)">
+      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(1179.2,62)">
       <rect width="108.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#C1F12E"/>
-      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(1839.2,62)">
+      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(1297.8,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
+      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(1379.4,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
+      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(1461,62)">
       <rect width="86.4" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#3776ab"/>
-      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(1935.6,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
-      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(2017.2,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
-      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(2098.8,62)">
+      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(1557.4,62)">
       <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#0175c2"/>
-      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(2180.4,62)">
+      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(1639,62)">
       <rect width="108.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#C1F12E"/>
-      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(2299,62)">
+      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(1757.6,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
+      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(1839.2,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
+      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(1920.8,62)">
       <rect width="86.4" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#3776ab"/>
-      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(2395.4,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
-      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(2477,62)">
-      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
-      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
-      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(2558.6,62)">
+      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(2017.2,62)">
       <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#0175c2"/>
-      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(2640.2,62)">
+      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(2098.8,62)">
       <rect width="108.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
       <circle cx="17" cy="16" r="4.5" fill="#C1F12E"/>
-      <text x="28" y="20.5" class="chip">Batchfile</text></g></g></g>
+      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(2217.4,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
+      <text x="28" y="20.5" class="chip">Hack</text></g><g transform="translate(2299,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#dea584"/>
+      <text x="28" y="20.5" class="chip">Rust</text></g><g transform="translate(2380.6,62)">
+      <rect width="86.4" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#3776ab"/>
+      <text x="28" y="20.5" class="chip">Python</text></g><g transform="translate(2477,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#0175c2"/>
+      <text x="28" y="20.5" class="chip">Dart</text></g><g transform="translate(2558.6,62)">
+      <rect width="108.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#C1F12E"/>
+      <text x="28" y="20.5" class="chip">Batchfile</text></g><g transform="translate(2677.2,62)">
+      <rect width="71.6" height="32" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+      <circle cx="17" cy="16" r="4.5" fill="#878787"/>
+      <text x="28" y="20.5" class="chip">Hack</text></g></g></g>
 </svg>
