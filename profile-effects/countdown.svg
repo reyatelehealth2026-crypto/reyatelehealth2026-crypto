@@ -22,19 +22,19 @@
 <g style="transform-origin:372px 77px;animation:flipBottom 6s ease-out 0s infinite"><g clip-path="url(#b0_0)"><rect x="347" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="372" y="94" class="digit" text-anchor="middle">1</text></g></g>
 <g filter="url(#glow)">
         <rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)" stroke="#3b3f63"/>
-        <text x="430" y="94" class="digit" text-anchor="middle">6</text>
+        <text x="430" y="94" class="digit" text-anchor="middle">5</text>
         <rect x="405" y="76.5" width="50" height="1.5" fill="#0b0c18"/>
       </g>
-<g style="transform-origin:430px 77px;animation:flipTop 6s ease-in -0.3s infinite"><g clip-path="url(#t0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">6</text></g></g>
-<g style="transform-origin:430px 77px;animation:flipBottom 6s ease-out -0.3s infinite"><g clip-path="url(#b0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">6</text></g></g>
+<g style="transform-origin:430px 77px;animation:flipTop 6s ease-in -0.3s infinite"><g clip-path="url(#t0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">5</text></g></g>
+<g style="transform-origin:430px 77px;animation:flipBottom 6s ease-out -0.3s infinite"><g clip-path="url(#b0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">5</text></g></g>
 <g filter="url(#glow)">
         <rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)" stroke="#3b3f63"/>
-        <text x="488" y="94" class="digit" text-anchor="middle">0</text>
+        <text x="488" y="94" class="digit" text-anchor="middle">9</text>
         <rect x="463" y="76.5" width="50" height="1.5" fill="#0b0c18"/>
       </g>
-<g style="transform-origin:488px 77px;animation:flipTop 6s ease-in -0.5s infinite"><g clip-path="url(#t0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">0</text></g></g>
-<g style="transform-origin:488px 77px;animation:flipBottom 6s ease-out -0.5s infinite"><g clip-path="url(#b0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">0</text></g></g>
-<text x="430" y="136" class="big" text-anchor="middle">160 days</text>
+<g style="transform-origin:488px 77px;animation:flipTop 6s ease-in -0.5s infinite"><g clip-path="url(#t0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">9</text></g></g>
+<g style="transform-origin:488px 77px;animation:flipBottom 6s ease-out -0.5s infinite"><g clip-path="url(#b0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">9</text></g></g>
+<text x="430" y="136" class="big" text-anchor="middle">159 days</text>
 <text x="430" y="154" class="date" text-anchor="middle">Mar 12, 2027</text>
 </g>
 </svg>
