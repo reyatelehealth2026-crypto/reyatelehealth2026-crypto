@@ -99,7 +99,7 @@
 <rect x="3" y="3" width="854" height="230" rx="6" fill="url(#sq)"/>
 <rect x="3" y="3" width="854" height="230" rx="6" fill="#fff" filter="url(#grain)"/>
 <line x1="56" y1="3" x2="56" y2="233" stroke="#e57373" stroke-width="1.2" opacity=".8"/>
-<text x="430" y="27" text-anchor="middle" class="m hand pen" style="animation-name:h1">October 23</text>
+<text x="430" y="27" text-anchor="middle" class="m hand pen" style="animation-name:h1">October 24</text>
 <text x="430" y="48" text-anchor="middle" class="m hand pen" style="animation-name:h2">Classwork</text>
 <text x="840" y="27" class="hand pen small" text-anchor="end" opacity=".8">@reyatelehealth2026-crypto</text>
 <g class="m " style="animation-name:labels"><text x="113" y="65" class="hand pencil">Nov</text><text x="183" y="65" class="hand pencil">Dec</text><text x="239" y="65" class="hand pencil">Jan</text><text x="295" y="65" class="hand pencil">Feb</text><text x="351" y="65" class="hand pencil">Mar</text><text x="421" y="65" class="hand pencil">Apr</text><text x="477" y="65" class="hand pencil">May</text><text x="547" y="65" class="hand pencil">Jun</text><text x="603" y="65" class="hand pencil">Jul</text><text x="659" y="65" class="hand pencil">Aug</text><text x="729" y="65" class="hand pencil">Sep</text><text x="785" y="65" class="hand pencil">Oct</text><text x="78" y="95" class="hand pencil" text-anchor="end">Mon</text><text x="78" y="123" class="hand pencil" text-anchor="end">Wed</text><text x="78" y="151" class="hand pencil" text-anchor="end">Fri</text>
@@ -132,4 +132,27 @@
     <text x="0" y="9" text-anchor="middle" class="m fb hand mark" style="animation-name:five">A+</text>
   </g>
 <text x="474" y="201" class="m hand red" style="animation-name:good">Well done!</text>
-  </svg>
+  <defs><clipPath id="cyp-clip"><rect width="860" height="238" rx="14"/></clipPath><filter id="cyp-glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><style>@keyframes cyp-fly{0%{transform:translate(-40px,var(--y))}50%{transform:translate(430px,calc(var(--y) - 16px))}100%{transform:translate(900px,var(--y))}}
+@keyframes cyp-flap{from{transform:scaleY(1)}to{transform:scaleY(.35)}}
+@keyframes cyp-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(20.7px)}}
+@keyframes cyp-flicker{0%,100%{opacity:1}40%{opacity:.6}45%{opacity:.95}70%{opacity:.75}}</style><g clip-path="url(#cyp-clip)" pointer-events="none"><g style="--y:50.1px;animation:cyp-fly 12.8s linear -4s infinite"><g transform="scale(1.1)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -0.8s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:29.6px;animation:cyp-fly 10.4s linear -2.7s infinite"><g transform="scale(1)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -0.8s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:117.4px;animation:cyp-fly 12.8s linear -8.7s infinite"><g transform="scale(0.8)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -0.2s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:48.2px;animation:cyp-fly 12s linear -8.5s infinite"><g transform="scale(1.1)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out 0s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:85.7px;animation:cyp-fly 7.8s linear -2.9s infinite"><g transform="scale(1)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -1s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="animation:cyp-bob 3.2s ease-in-out infinite"><line x1="739.6" y1="0" x2="739.6" y2="46" stroke="#d0d0d0" stroke-width=".6" opacity=".7"/><g transform="translate(739.6,50)"><path d="M0 -1q-4 -3 -7 -1" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 0.3q-4 -1.8 -7 0.6" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 1.6q-4 -0.6 -7 2.2" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 2.9q-4 0.6 -7 3.8" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 -1q4 -3 7 -1" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 0.3q4 -1.8 7 0.6" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 1.6q4 -0.6 7 2.2" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 2.9q4 0.6 7 3.8" fill="none" stroke="#1a0f1f" stroke-width="1"/><ellipse rx="3.4" ry="4.2" fill="#1a0f1f"/><circle cy="-4.4" r="2.2" fill="#1a0f1f"/><circle cx="-.8" cy="-4.6" r=".5" fill="#ff4d4d"/><circle cx=".8" cy="-4.6" r=".5" fill="#ff4d4d"/></g></g>
+<g transform="translate(27,217)">
+      <rect x="-1.5" y="-20" width="3" height="6" rx="1" fill="#2f6b2f"/>
+      <ellipse rx="15" ry="12.3" fill="#f76707"/><ellipse rx="6.8" ry="12.3" fill="none" stroke="#c44d00" stroke-width="1"/>
+      <g fill="#ffe066" filter="url(#cyp-glow)" style="animation:cyp-flicker 1.7s steps(4) -0.5s infinite">
+        <path d="M-8.3 -1.5l3.3 -4.8 3.3 4.8z"/><path d="M1.6 -1.5l3.3 -4.8 3.3 4.8z"/>
+        <path d="M-8.3 3l2.7 3 2.7 -1.8 2.7 1.8 2.7 -1.8 2.7 1.8 2.7 -3z"/>
+      </g></g>
+<g transform="translate(833,217)">
+      <rect x="-1.5" y="-20" width="3" height="6" rx="1" fill="#2f6b2f"/>
+      <ellipse rx="15" ry="12.3" fill="#f76707"/><ellipse rx="6.8" ry="12.3" fill="none" stroke="#c44d00" stroke-width="1"/>
+      <g fill="#ffe066" filter="url(#cyp-glow)" style="animation:cyp-flicker 1.7s steps(4) -1.2s infinite">
+        <path d="M-8.3 -1.5l3.3 -4.8 3.3 4.8z"/><path d="M1.6 -1.5l3.3 -4.8 3.3 4.8z"/>
+        <path d="M-8.3 3l2.7 3 2.7 -1.8 2.7 1.8 2.7 -1.8 2.7 1.8 2.7 -3z"/>
+      </g></g></g>
+</svg>

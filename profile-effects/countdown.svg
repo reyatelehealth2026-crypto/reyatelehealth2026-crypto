@@ -22,19 +22,42 @@
 <g style="transform-origin:372px 77px;animation:flipBottom 6s ease-out 0s infinite"><g clip-path="url(#b0_0)"><rect x="347" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="372" y="94" class="digit" text-anchor="middle">1</text></g></g>
 <g filter="url(#glow)">
         <rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)" stroke="#3b3f63"/>
-        <text x="430" y="94" class="digit" text-anchor="middle">4</text>
+        <text x="430" y="94" class="digit" text-anchor="middle">3</text>
         <rect x="405" y="76.5" width="50" height="1.5" fill="#0b0c18"/>
       </g>
-<g style="transform-origin:430px 77px;animation:flipTop 6s ease-in -0.3s infinite"><g clip-path="url(#t0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">4</text></g></g>
-<g style="transform-origin:430px 77px;animation:flipBottom 6s ease-out -0.3s infinite"><g clip-path="url(#b0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">4</text></g></g>
+<g style="transform-origin:430px 77px;animation:flipTop 6s ease-in -0.3s infinite"><g clip-path="url(#t0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">3</text></g></g>
+<g style="transform-origin:430px 77px;animation:flipBottom 6s ease-out -0.3s infinite"><g clip-path="url(#b0_1)"><rect x="405" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="430" y="94" class="digit" text-anchor="middle">3</text></g></g>
 <g filter="url(#glow)">
         <rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)" stroke="#3b3f63"/>
-        <text x="488" y="94" class="digit" text-anchor="middle">0</text>
+        <text x="488" y="94" class="digit" text-anchor="middle">9</text>
         <rect x="463" y="76.5" width="50" height="1.5" fill="#0b0c18"/>
       </g>
-<g style="transform-origin:488px 77px;animation:flipTop 6s ease-in -0.5s infinite"><g clip-path="url(#t0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">0</text></g></g>
-<g style="transform-origin:488px 77px;animation:flipBottom 6s ease-out -0.5s infinite"><g clip-path="url(#b0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">0</text></g></g>
-<text x="430" y="136" class="big" text-anchor="middle">140 days</text>
+<g style="transform-origin:488px 77px;animation:flipTop 6s ease-in -0.5s infinite"><g clip-path="url(#t0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">9</text></g></g>
+<g style="transform-origin:488px 77px;animation:flipBottom 6s ease-out -0.5s infinite"><g clip-path="url(#b0_2)"><rect x="463" y="44" width="50" height="66" rx="8" fill="url(#card)"/><text x="488" y="94" class="digit" text-anchor="middle">9</text></g></g>
+<text x="430" y="136" class="big" text-anchor="middle">139 days</text>
 <text x="430" y="154" class="date" text-anchor="middle">Mar 12, 2027</text>
 </g>
+<defs><clipPath id="cyp-clip"><rect width="860" height="180" rx="14"/></clipPath><filter id="cyp-glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><style>@keyframes cyp-fly{0%{transform:translate(-40px,var(--y))}50%{transform:translate(430px,calc(var(--y) - 16px))}100%{transform:translate(900px,var(--y))}}
+@keyframes cyp-flap{from{transform:scaleY(1)}to{transform:scaleY(.35)}}
+@keyframes cyp-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(17.8px)}}
+@keyframes cyp-flicker{0%,100%{opacity:1}40%{opacity:.6}45%{opacity:.95}70%{opacity:.75}}</style><g clip-path="url(#cyp-clip)" pointer-events="none"><g style="--y:23.1px;animation:cyp-fly 9.7s linear -8.8s infinite"><g transform="scale(1.2)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -0.6s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:58.7px;animation:cyp-fly 8.1s linear -5.1s infinite"><g transform="scale(1.2)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -0.8s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:74.1px;animation:cyp-fly 7.1s linear -6.6s infinite"><g transform="scale(1)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -0.3s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:60.7px;animation:cyp-fly 12.5s linear -9.8s infinite"><g transform="scale(0.9)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out 0s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="--y:93.6px;animation:cyp-fly 11.3s linear -7.1s infinite"><g transform="scale(1.2)"><g style="transform-box:fill-box;transform-origin:center;animation:cyp-flap .18s ease-in-out -0.3s infinite alternate"><path d="M0 0c-3-4-8-5-12-3 3 1 4 3 4 5-2-1-5-1-7 1 4 0 7 2 9 4 2-1 4-2 6-2s4 1 6 2c2-2 5-4 9-4-2-2-5-2-7-1 0-2 1-4 4-5-4-2-9-1-12 3z" fill="#1a0f1f"/><circle cx="-1.6" cy="1" r=".6" fill="#ff922b"/><circle cx="1.6" cy="1" r=".6" fill="#ff922b"/></g></g></g>
+<g style="animation:cyp-bob 3.2s ease-in-out infinite"><line x1="739.6" y1="0" x2="739.6" y2="39.6" stroke="#d0d0d0" stroke-width=".6" opacity=".7"/><g transform="translate(739.6,43.6)"><path d="M0 -1q-4 -3 -7 -1" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 0.3q-4 -1.8 -7 0.6" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 1.6q-4 -0.6 -7 2.2" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 2.9q-4 0.6 -7 3.8" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 -1q4 -3 7 -1" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 0.3q4 -1.8 7 0.6" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 1.6q4 -0.6 7 2.2" fill="none" stroke="#1a0f1f" stroke-width="1"/><path d="M0 2.9q4 0.6 7 3.8" fill="none" stroke="#1a0f1f" stroke-width="1"/><ellipse rx="3.4" ry="4.2" fill="#1a0f1f"/><circle cy="-4.4" r="2.2" fill="#1a0f1f"/><circle cx="-.8" cy="-4.6" r=".5" fill="#ff4d4d"/><circle cx=".8" cy="-4.6" r=".5" fill="#ff4d4d"/></g></g>
+<g transform="translate(24.6,161.4)">
+      <rect x="-1.5" y="-17.6" width="3" height="6" rx="1" fill="#2f6b2f"/>
+      <ellipse rx="12.6" ry="10.3" fill="#f76707"/><ellipse rx="5.7" ry="10.3" fill="none" stroke="#c44d00" stroke-width="1"/>
+      <g fill="#ffe066" filter="url(#cyp-glow)" style="animation:cyp-flicker 1.7s steps(4) -1s infinite">
+        <path d="M-6.9 -1.3l2.8 -4 2.8 4z"/><path d="M1.4 -1.3l2.8 -4 2.8 4z"/>
+        <path d="M-6.9 2.5l2.3 2.5 2.3 -1.5 2.3 1.5 2.3 -1.5 2.3 1.5 2.3 -2.5z"/>
+      </g></g>
+<g transform="translate(835.4,161.4)">
+      <rect x="-1.5" y="-17.6" width="3" height="6" rx="1" fill="#2f6b2f"/>
+      <ellipse rx="12.6" ry="10.3" fill="#f76707"/><ellipse rx="5.7" ry="10.3" fill="none" stroke="#c44d00" stroke-width="1"/>
+      <g fill="#ffe066" filter="url(#cyp-glow)" style="animation:cyp-flicker 1.7s steps(4) -0.3s infinite">
+        <path d="M-6.9 -1.3l2.8 -4 2.8 4z"/><path d="M1.4 -1.3l2.8 -4 2.8 4z"/>
+        <path d="M-6.9 2.5l2.3 2.5 2.3 -1.5 2.3 1.5 2.3 -1.5 2.3 1.5 2.3 -2.5z"/>
+      </g></g></g>
 </svg>
