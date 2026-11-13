@@ -51,9 +51,9 @@
 <rect x="72" y="160" width="80" height="22" rx="11" fill="#1b1530" stroke="url(#gold)" stroke-width="1.5"/><text x="112" y="175" text-anchor="middle" class="lvl">LV 39</text>
 <text x="112" y="208" text-anchor="middle" class="name">reyatelehealth2026-crypto</text>
 <text x="112" y="226" text-anchor="middle" class="klass">PHP Alchemist</text>
-<text x="230" y="46" class="label">EXPERIENCE</text><text x="820" y="46" class="label" text-anchor="end">1041 contributions · next level 72%</text>
+<text x="230" y="46" class="label">EXPERIENCE</text><text x="820" y="46" class="label" text-anchor="end">1042 contributions · next level 74%</text>
 <rect x="230" y="54" width="590" height="12" rx="6" fill="#2a2340"/>
-<rect x="230" y="54" width="423.3" height="12" rx="6" fill="url(#xp)" filter="url(#glow)" class="m fbl" style="animation-name:xp"/>
+<rect x="230" y="54" width="434.3" height="12" rx="6" fill="url(#xp)" filter="url(#glow)" class="m fbl" style="animation-name:xp"/>
 <text x="230" y="105" class="key" fill="#ff6b6b">STR</text><text x="268" y="105" class="label">commits this year</text>
 <rect x="390" y="96" width="420" height="10" rx="5" fill="#2a2340"/>
 <rect x="390" y="96" width="270.4" height="10" rx="5" fill="#ff6b6b" class="m fbl" style="animation-name:st0"/>
